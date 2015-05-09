@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Replaced projects -->
+
+		<remove-project name="CyanogenMod/android_bionic" />
+		<project name="omnirom/android_bionic" path="bionic" revision="android-5.0" remote="github" />
+
+		<remove-project name="CyanogenMod/android_frameworks_av" />
+		<project name="omnirom/android_frameworks_av" path="frameworks/av" revision="android-5.0" remote="github" />
+
+		<remove-project name="CyanogenMod/android_frameworks_base" />
+		<project name="omnirom/android_frameworks_base" path="frameworks/base" revision="android-5.0" remote="github" />
+
+		<remove-project name="CyanogenMod/android_frameworks_native" />
+		<project name="omnirom/android_frameworks_native" path="frameworks/native" revision="android-5.0" remote="github" />
+
+	<!-- /Replaced projects -->
+
+	<!-- Devices -->
+
+		<!-- i9305 -->
+			<!-- project-remove -->
+			<project name="omnirom/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" revision="android-5.0" remote="github" />
+			<!-- project-remove -->
+			<project name="omnirom/proprietary_vendor_samsung" path="vendor/samsung" revision="android-5.0" remote="github" />
+			<!-- project-remove -->
+			<project name="omnirom/android_device_samsung_i9305" path="device/samsung/i9305" remote="github" />
+			<!-- project-remove -->
+			<project name="omnirom/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" revision="android-5.0" remote="github" />
+			<!-- project-remove -->
+			<project name="omnirom/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" revision="android-5.0" remote="github" />
+			<!-- project-remove -->
+			<project name="omnirom/android_hardware_samsung" path="hardware/samsung" revision="android-5.0" remote="github" />
+
+		<!-- /i9305 -->
+
+	<!-- /Devices -->
+
+</manifest>

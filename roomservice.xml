@@ -24,7 +24,7 @@
 			<!-- project-remove -->
 			<project name="omnirom/proprietary_vendor_samsung" path="vendor/samsung" revision="android-5.0" remote="github" />
 			<!-- project-remove -->
-			<project name="omnirom/android_device_samsung_i9305" path="device/samsung/i9305" remote="github" />
+			<project name="omnirom/android_device_samsung_i9305" path="device/samsung/i9305" revision="android-5.0" remote="github" />
 			<!-- project-remove -->
 			<project name="omnirom/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" revision="android-5.0" remote="github" />
 			<!-- project-remove -->

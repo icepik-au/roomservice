@@ -7,6 +7,5 @@
 
 cm-12.0:
 https://raw.githubusercontent.com/icepik-au/roomservice-i9305/cm-12.0/roomservice.xml
-
 cm-12.1:
 https://raw.githubusercontent.com/icepik-au/roomservice-i9305/cm-12.1/roomservice.xml
